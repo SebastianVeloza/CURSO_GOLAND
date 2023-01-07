@@ -30,7 +30,7 @@ func main() {
 	fmt.Print("Ingrese otro nombre: ")
 
 	//El Scan se usa para recibir datos del usuario
-	fmt.Scanln(&nombre)
+	fmt.Scanln(&nombre) //El & se usa para almacenarlo en la variable definida anteriormente
 
 	fmt.Println("Otro Nombre: ", nombre)
 }
