@@ -28,7 +28,7 @@ func main() {
 
 	fmt.Println(dias, len(dias))
 
-	//Nueva Mopa
+	//Nueva Mapa
 	estudiantes := make(map[string][]int)
 
 	estudiantes["Alex"] = []int{13, 15, 16}
