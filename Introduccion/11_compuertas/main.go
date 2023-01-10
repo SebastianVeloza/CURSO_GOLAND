@@ -31,4 +31,21 @@ func main() {
 	//Menor o igual que
 	r = a <= b
 	fmt.Printf("%d es menor o igual que %d? %t \n", a, b, r)
+
+	//Compuertas logicas
+
+	//Not
+	fmt.Println(!false)
+
+	//And
+	fmt.Println(false && true)
+
+	//Or
+	fmt.Println(true || false)
+
+	b1 := 2
+
+	r = b1 == 2 || !(4 > b1)
+
+	fmt.Println(r)
 }
