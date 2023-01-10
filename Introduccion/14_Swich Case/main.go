@@ -24,4 +24,12 @@ func main() {
 		fmt.Println(vocal, "No es vocal")
 	}
 
+	//Forma corta
+	switch vocal {
+	case "a", "A", "e", "E", "i", "I", "o", "O", "u", "U":
+		fmt.Println(vocal, "es vocal")
+	default:
+		fmt.Println(vocal, "No es vocal")
+	}
+
 }
