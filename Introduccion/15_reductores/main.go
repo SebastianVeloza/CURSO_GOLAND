@@ -30,4 +30,24 @@ func main() {
 	a %= 2
 	fmt.Println(a)
 
+	//	INCREMENTO Y DECREMENTO
+
+	a = 0
+
+	//Operador de incremento
+	a++
+	a++
+	a++
+	a++
+	a++
+	fmt.Println(a)
+
+	//Operador de decremento
+
+	a--
+	a--
+	a--
+	a--
+	fmt.Println(a)
+
 }
