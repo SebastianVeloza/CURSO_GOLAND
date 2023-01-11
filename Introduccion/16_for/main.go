@@ -27,4 +27,20 @@ func main() {
 		}
 	}
 
+	//Continue y break
+
+	for i := 0; i <= 10; i++ {
+
+		if i == 5 {
+			fmt.Println("Salta la iteración")
+			continue
+		}
+
+		if i == 8 {
+			fmt.Println("Romper con bucle ")
+			break
+		}
+		fmt.Println(i)
+	}
+
 }
